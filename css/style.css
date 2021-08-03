@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #9f9a0f;
+    padding: 20px 30px;
+    position: absolute;
+    max-width: 1140px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    left: 0;
+    right: 0;
+}
+
+
+.flex_container{
+    display: flex;
+    justify-content: space-between;
+}
+
+header .flex_container ul{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+ .logo{
+     line-height: 49px;
+    font-size: 14px;
+    color: black;
+    font-family: Roboto;
+    text-decoration: none;
+}
+
+header .flex_container ul li{
+    margin-left: 30px;
+    list-style: none;
+    font-family: Roboto;
+    font-size: 14px;
+}
+
+header .flex_container ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.screen_one{
+    background-image: url("../img/screen_one.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 190px 88px 243px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.screen_one h3{
+    font-family: Oswald;
+    font-weight: bold;
+    font-size: 32px;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.screen_one p{
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 30px;
+    color: white;
+    max-width: 562px;
+    margin-bottom: 40px;
+}
+
+.screen_one a{
+    font-family: Roboto;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    background-color: #bdaa08;
+    padding: 25px 63px;
+    border-radius: 20px;
+}
