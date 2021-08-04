@@ -159,6 +159,7 @@ header .flex_container ul li a{
 
 .screen_three{
     background-image: url("../img/screen_three.jpg");
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -229,7 +230,7 @@ header .flex_container ul li a{
 .beer_three{
     position: absolute;
     top: -151px;
-    left: 320px;
+    left: 310px;
     z-index: 1;
 }
 
@@ -246,8 +247,60 @@ header .flex_container ul li a{
 }
 
 .beer_three img:hover{
-    width: 105%;
+    width: 107%;
     transition: 0.3s;
     position: relative;
-    right: 20px;
+}
+
+.screen_four{
+    padding: 100px 0;
+    background-image: url("../img/about_back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title{
+    border-top: solid 56px #bdaa08;
+    width: 100%;
+    padding: 50px 0 41px;
+    background-color: #4e4603;
+}
+
+.title h2{
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    font-family: Oswald;
+    font-weight: bold;
+}
+
+.screen_four h2{
+    color: white;
+    font-size: 32px;
+    font-family: Oswald;
+    font-weight: bold;
+    text-align: center;
+}
+
+.screen_four .flex_container{
+    max-width: 1140px;
+    margin: auto;
+}
+
+.screen_four h3{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Roboto;
+    margin-bottom: 14px;
+    line-height: 0;
+}
+
+.screen_four p{
+    font-size: 14px;
+    color: white;
+    font-family: Roboto;
+    max-width: 450px;
+    line-height: 24px;
+    margin-bottom: 50px;
 }
