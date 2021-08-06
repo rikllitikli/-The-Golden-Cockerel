@@ -371,3 +371,177 @@ header .flex_container ul li a{
     transition: 0.5s;
 }
 
+
+.reviews {
+    background-color: black;
+    padding: 100px 0;
+}
+
+.reviews h2{
+    margin-bottom: 75px;
+    font-size: 32px;
+    color: white;
+    font-weight: bold;
+    font-family: Oswald;
+    text-align: center;
+}
+
+
+.reviews_carusel{
+    background-image: url("../img/bg_reviev.png");
+    background-repeat: repeat-y;
+    background-size: contain;
+    max-width: 1140px;
+    margin: auto;
+    padding: 40px 100px;
+    display: flex;
+    align-items: center;
+}
+
+.reviews_carusel h3{
+    font-size: 24px;
+    font-family: Roboto;
+    font-weight: bold;
+    color: black;
+    margin-right: 90px;
+}
+
+.reviews_carusel h4 {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Roboto;
+    color: black;
+}
+
+
+.coments p {
+    color: white;
+    background-color: rgba(0, 0, 0, 40%);
+    padding: 20px;
+    height: 30px;
+   width: 600px;
+}
+
+
+.contant{
+    background-color: black;
+    padding: 100px 0;
+}
+
+.contant h2 {
+    color: white;
+    font-size: 32px;
+    font-family: Oswald;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.contant form{
+    max-width: 1140px;
+    margin: auto;
+    display: flex;
+}
+
+.contant form input{
+    display: block;
+    background-color: #808080;
+    border-radius: 20px;
+    color: white;
+    width: 290px;
+    height: 34px;
+    margin-bottom: 20px;
+    padding: 12px 9px;
+    font-size: 14px;
+    font-family: Roboto;
+    margin-right: 60px;
+    outline: none;
+}
+
+.contant form p {
+    color: white;
+    max-width: 270px;
+    font-family: Roboto;
+    line-height: 20px;
+}
+
+.contant input::placeholder{
+    color: white;
+    font-size: 14px;
+    font-family: Roboto;
+}
+
+.coments_user{
+    padding-top: 27px;
+}
+
+.coments_user textarea{
+    border-radius: 20px;
+   width: 540px;
+    padding: 10px;
+    height: 115px;
+    color: white;
+    background-color: #808080;
+    outline: none;
+    resize: none;
+    margin-bottom: 10px;
+}
+
+.button_coment{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button_coment button{
+    color: white;
+    font-family: Roboto;
+    padding: 15px 62px;
+    border-radius: 20px;
+    border: none;
+    background-color: #bdaa08;
+}
+
+footer{
+    background-color: black;
+    padding-bottom: 50px;
+}
+
+footer div {
+    max-width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer li {
+    color: white;
+    list-style: none;
+    font-size: 14px;
+    font-family: Roboto;
+    margin-bottom: 30px;
+}
+
+footer .twit {
+    color: white;
+    font-size: 23px;
+    background-color: #55acee;
+    border-radius: 50%;
+    width: 42px;
+    height: 42px;
+    line-height: 45px;
+    text-align: center;
+}
+
+
+footer .facebook {
+    width: 42px;
+    height: 42px;
+    color: white;
+    font-size: 23px;
+    background-color: #3b5998;
+    border-radius: 50%;
+    margin-left: 30px;
+    text-align: center;
+    line-height: 45px;
+    vertical-align: center;
+}
