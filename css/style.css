@@ -1,13 +1,14 @@
-body{
+*{
     margin: 0;
     padding: 0;
 }
 
 header{
     background-color: #9f9a0f;
-    padding: 20px 30px;
+    padding: 20px 30px 0;
     position: absolute;
     max-width: 1140px;
+    width: 100%;
     margin-right: auto;
     margin-left: auto;
     left: 0;
@@ -26,8 +27,7 @@ header .flex_container ul{
 
 }
 
- .logo{
-     line-height: 49px;
+.logo{
     font-size: 14px;
     color: black;
     font-family: Roboto;
@@ -35,15 +35,37 @@ header .flex_container ul{
 }
 
 header .flex_container ul li{
-    margin-left: 30px;
     list-style: none;
     font-family: Roboto;
     font-size: 14px;
 }
 
+header .flex_container ul li:after{
+    display: block;
+    content: "";
+    background-color: transparent;
+    height: 2px;
+    margin-top: 20px;
+}
+
+header .flex_container ul li:hover:after{
+    background-color: black;
+    transition: 0.5s;
+}
+
 header .flex_container ul li a{
     text-decoration: none;
     color: black;
+    background-color: transparent;
+    padding: 20px 15px 20px;
+    width: 100%;
+    text-align: center;
+}
+
+header .flex_container ul li a:hover{
+    color: white;
+    background-color: #8a860b;
+    transition: 0.5s;
 }
 
 .screen_one{
