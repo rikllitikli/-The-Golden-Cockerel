@@ -6,6 +6,8 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -21,17 +23,19 @@
         </ul>
     </div>
 </header>
-<section class="screen_one">
+<section class="screen_one animate__animated animate__fadeInUp wow" data-wow-delay = "0.2s">
     <div class="flex_container">
-        <div>
-            <img src="img/screen_one_content.png"/>
+        <div class="animate__animated animate__backInLeft wow" data-wow-delay = "0.7s">
+            <a href="#0"><img src="img/screen_one_content.png"/></a>
         </div>
-        <div>
+        <div class="animate__animated animate__fadeInRight wow" data-wow-delay = "1s">
             <h3>The Golden Cockerel Classic </h3>
             <p> Dark beer, which is distinguished by pure taste and aroma, has a distinct taste of malt,
                 pleasant honey bitterness and light caramel flavor. </p>
+            <div class="anime_botton animate__animated animate__infinite">
             <a href="#0"> ORDER NOW </a>
-            <div class="solod">
+            </div>
+            <div class="solod animate__animated animate__backInRight wow" data-wow-delay = "1.2s">
                 <img src="img/screen_one_content_two.png"/>
             </div>
         </div>
@@ -204,6 +208,10 @@
         <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
     </div>
 </footer>
+<script src="js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
 <script src="https://kit.fontawesome.com/421ca2af13.js" crossorigin="anonymous"></script>
 </body>
 </html>
