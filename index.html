@@ -6,6 +6,8 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="css/style.css">
@@ -161,18 +163,22 @@
 <section class="reviews">
     <h2> Reviews </h2>
     <div class="reviews_carusel">
-        <div>
-            <img src="img/user_one.png"/>
+    <div class="owl-carousel">
+        <div class="reviews_content">
             <div>
-                <h3>Linda Hemilton</h3>
-                <h4>Age - 22</h4>
+                <img src="img/user_one.png"/>
+                <div>
+                    <h3>Linda Hemilton</h3>
+                    <h4>Age - 22</h4>
+                </div>
+            </div>
+            <div>
+                <div class="coments">
+                    <p> Quite good, but a little expensive </p>
+                </div>
             </div>
         </div>
-        <div>
-            <div class="coments">
-                <p> Quite good, but a little expensive </p>
-            </div>
-        </div>
+    </div>
     </div>
 </section>
 <section class="contant">
@@ -212,6 +218,10 @@
 <script>
     new WOW().init();
 </script>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script src="js/owl.carousel.min.js"></script>
 <script src="https://kit.fontawesome.com/421ca2af13.js" crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
 </body>
 </html>

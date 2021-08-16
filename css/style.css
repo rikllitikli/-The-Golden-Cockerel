@@ -326,6 +326,7 @@ header .flex_container ul li a:hover{
     font-family: Oswald;
     font-weight: bold;
     text-align: center;
+    margin-bottom: 65px;
 }
 
 .screen_four .flex_container{
@@ -437,11 +438,21 @@ header .flex_container ul li a:hover{
     background-image: url("../img/bg_reviev.png");
     background-repeat: repeat-y;
     background-size: contain;
+    width: 100%;
+}
+
+.reviews_content{
     max-width: 1140px;
     margin: auto;
-    padding: 40px 100px;
     display: flex;
     align-items: center;
+    padding: 40px 100px;
+}
+
+.reviews_carusel img{
+    max-width: 170px;
+    width: 100%;
+    margin-bottom: 10px;
 }
 
 .reviews_carusel h3{
@@ -491,7 +502,7 @@ header .flex_container ul li a:hover{
 
 .contant form input{
     display: block;
-    background-color: #808080;
+    background-color: #4f4f4f;
     border-radius: 20px;
     color: white;
     width: 290px;
@@ -502,6 +513,7 @@ header .flex_container ul li a:hover{
     font-family: Roboto;
     margin-right: 60px;
     outline: none;
+    border: none;
 }
 
 .contant form p {
@@ -509,6 +521,7 @@ header .flex_container ul li a:hover{
     max-width: 270px;
     font-family: Roboto;
     line-height: 20px;
+    margin-bottom: 10px;
 }
 
 .contant input::placeholder{
@@ -527,7 +540,7 @@ header .flex_container ul li a:hover{
     padding: 10px;
     height: 115px;
     color: white;
-    background-color: #808080;
+    background-color: #4f4f4f;
     outline: none;
     resize: none;
     margin-bottom: 10px;
