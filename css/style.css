@@ -313,6 +313,7 @@ header .flex_container ul li a:hover{
     opacity: 0.75;
     display: flex;
     justify-content: flex-end;
+    position: relative;
 }
 
 .screen_three_content p {
@@ -343,12 +344,17 @@ header .flex_container ul li a:hover{
 }
 
 .screen_three_content_two{
-    background-image: url("../img/screen_three_content.png");
+    background-image: url("../img/screen_three_content.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     padding-bottom: 83px;
     height: 228px;
     position: relative;
+}
+
+.beer_position{
+    position: relative;
+    right: 200px;
 }
 
 .beer{
@@ -430,9 +436,13 @@ header .flex_container ul li a:hover{
 }
 
 .screen_four .flex_container{
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
     max-width: 1140px;
     margin: auto;
 }
+
 
 .screen_four h3{
     color: white;
@@ -471,15 +481,27 @@ header .flex_container ul li a:hover{
 }
 
 .screen_five .flex_container{
+    padding: 0 10px;
     max-width: 1140px;
     margin: auto;
     display: flex;
     justify-content: space-between;
 }
 
+.screen_five .flex_container .stock{
+    max-width: 540px;
+    width: 100%;
+    margin-right: 15px;
+}
+
+.screen_five .flex_container .stock_two{
+    max-width: 540px;
+    width: 100%;
+    margin-left: 15px;
+}
+
 .screen_five .flex_container img {
     width: 100%;
-    max-width: 540px;
     margin-bottom: 25px;
 }
 
@@ -599,6 +621,7 @@ header .flex_container ul li a:hover{
     max-width: 1140px;
     margin: auto;
     display: flex;
+    padding: 0 10px;
 }
 
 .contant form input{
@@ -637,7 +660,7 @@ header .flex_container ul li a:hover{
 
 .coments_user textarea{
     border-radius: 20px;
-   width: 540px;
+    width: 540px;
     padding: 10px;
     height: 115px;
     color: white;
@@ -667,6 +690,7 @@ footer{
 }
 
 footer div {
+    padding: 0 30px;
     max-width: 1140px;
     margin: auto;
     display: flex;
