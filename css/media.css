@@ -4,6 +4,60 @@
     }
 }
 
+@media (max-width: 2000px){
+    .screen_one{
+        padding: 350px 10px 150px;
+    }
+}
+
+@media (max-width: 1750px){
+    .screen_one{
+        padding: 200px 10px 100px;
+    }
+}
+
+
+@media (max-width: 767px){
+    .screen_two_content{
+        padding: 75px 30px 100px;
+    }
+    .balery img{
+        width: 100%;
+        height: 100%;
+    }
+    .hop img{
+        width: 40%;
+        height: 100%;
+    }
+}
+
+@media (max-width: 540px){
+    .screen_two_content{
+        padding: 75px 10px 100px;
+    }
+}
+
+@media (max-width: 411px){
+    .screen_two_content .flex_container h3{
+        font-size: 32px;
+    }
+    .balery img{
+        width: 40%;
+        height: 100%;
+    }
+
+
+    .balery p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .hop p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+}
+
+
 @media (max-width: 570px){
     .screen_one h3{
         font-size: 24px;
