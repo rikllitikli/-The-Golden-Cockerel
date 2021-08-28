@@ -358,7 +358,7 @@ header .flex_container ul li a:hover{
 }
 
 .screen_three_content_two{
-
+    background-image: url("../img/screen_three_content.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     padding-bottom: 83px;
